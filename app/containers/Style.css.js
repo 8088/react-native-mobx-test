@@ -194,7 +194,50 @@ const styles = StyleSheet.create({
     },
     module_body: {
         padding: 15,
-    }
+    },
+
+    //stepper
+    stepper:{
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: Colors.pink,
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        alignSelf:'flex-start',
+        flexDirection: 'row',
+        backgroundColor: '#fff',
+    },
+    stepper_btn:{
+        borderRadius: 3,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: Colors.pink_translucent,
+        paddingHorizontal: 8,
+        paddingTop:1,
+    },
+    stepper_btn_disabled:{
+        borderRadius: 3,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(255, 120, 150, .35)',
+        paddingHorizontal: 8,
+        paddingTop:1,
+    },
+    left_btn:{
+        borderBottomRightRadius:0,
+        borderTopRightRadius:0,
+    },
+    right_btn:{
+        borderBottomLeftRadius:0,
+        borderTopLeftRadius:0,
+    },
+    stepper_txt:{
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: 30,
+        textAlign:'center',
+    },
+
 });
 
 module.exports = styles;

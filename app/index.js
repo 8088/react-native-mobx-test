@@ -74,17 +74,14 @@ export default class App extends Component {
 
     render() {
         var {
-            activeTab,
-            tabs,
-            scrollValue,
-            htmlText,
+            firstGuide,
         }=this.state;
 
         return (
             <View style={styles.container}>
                 <StatusBar backgroundColor='rgba(0,0,0,0.1)' hidden={false} animated={true} translucent={true} barStyle='light-content'/>
                 <Navigator
-                    initialRoute={{title: this.state.firstGuide?'Home':'Guide', component:null, passProps:{}}}
+                    initialRoute={{title: firstGuide?'Home':'Guide', component:null, passProps:{}}}
                     configureScene={this._configureScene}
                     renderScene={this._navToPage}
                     style={styles.container}
