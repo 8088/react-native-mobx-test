@@ -71,6 +71,9 @@ export default class Stepper extends PureComponent {
         if(this.state.counter===this.props.maxValue) this.addBtn.setState({disabled:true});
     }
 
+    shouldComponentUpdate(nextPorps, nextState){
+        return nextState.counter !== this.state.counter || nextState.disabled !== this.state.disabled;
+    }
 
     render() {
         if(this.has_error) return null;
@@ -79,7 +82,7 @@ export default class Stepper extends PureComponent {
             elementId,
             style,
         }= this.props;
-        var { disabled }=this.state;
+        var { disabled, counter }=this.state;
 
         return (
             <View elementId={elementId} style={style} pointerEvents={'box-none'}>

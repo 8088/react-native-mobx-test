@@ -247,6 +247,13 @@ const styles = StyleSheet.create({
         color: '#777',
     },
 
+    todo: {
+        fontSize: 20,
+    },
+    done: {
+        color: 'gray',
+        textDecorationLine: 'line-through',
+    },
 });
 
 module.exports = styles;

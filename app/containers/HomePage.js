@@ -4,7 +4,7 @@
  * @flow
  */
 'use strict';
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import {
     View,
     Text,
@@ -35,11 +35,39 @@ import Tabbody from '../components/Tabbody';
 import Topbar from '../modules/Topbar';
 import Module from '../modules/Module';
 
+const titles = ['Eat', 'Drink', 'Think'];
+
+class Todo {
+    id = `${Date.now()}${Math.floor(Math.random()*10)}`;
+
+    @observable
+    title = '';
+
+    @observable
+    done = false;
+
+    constructor(title) {
+        this.title = title;
+    }
+}
+
+function randomTodoTitle() {
+    return titles[Math.floor(Math.random() * titles.length)];
+}
+
 @observer
 export default class HomePage extends Component {
 
     @observable counter = 8;
     @observable counter2 = 0;
+
+    static propTypes = {
+        data: PropTypes.instanceOf(Todo),
+    };
+
+    static defaultProps = {
+        data: new Todo('Test mobx style'),
+    };
 
     constructor(props) {
         super(props);
@@ -58,13 +86,13 @@ export default class HomePage extends Component {
 
     //
     render() {
-
+        const { data } = this.props;
         return (
             <View style={styles.container}>
                 <StatusBar backgroundColor='rgba(255,255,255,0.1)' hidden={false} animated={true} translucent={true} barStyle='default'/>
                 <Topbar title='Mobx Test'/>
                 <ScrollView style={styles.flex_1}>
-                    <Module title='mobx stepper'>
+                    <Module title='mobx base'>
                         <View style={[styles.flex_row, styles.align_center, styles.flex_wrap, styles.margin_bottom_10]}>
                             <Stepper disabled={false} maxValue={10} minValue={0} style={styles.stepper} onChanged={this._onChanged}>
                                 <Button style={[styles.stepper_btn, styles.left_btn]} renderDisabled={()=>{
@@ -112,6 +140,12 @@ export default class HomePage extends Component {
                                 </Button>
                             </Stepper>
                         </View>
+                        <Text
+                            style={[styles.item, data.done && styles.done]}
+                            onPress={this._onPress}>
+                            {data.title}
+                        </Text>
+
                     </Module>
                 </ScrollView>
             </View>
@@ -138,6 +172,11 @@ export default class HomePage extends Component {
     _getValue=()=>{
         alert(this.counter)
     }
+
+    _onPress = () => {
+        const { data } = this.props;
+        data.done = !data.done;
+    };
 
 }
 
