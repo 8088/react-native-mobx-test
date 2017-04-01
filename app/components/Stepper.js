@@ -78,11 +78,11 @@ export default class Stepper extends PureComponent {
     render() {
         if(this.has_error) return null;
 
-        var {
+        const {
             elementId,
             style,
         }= this.props;
-        var { disabled, counter }=this.state;
+        const { disabled, counter }=this.state;
 
         return (
             <View elementId={elementId} style={style} pointerEvents={'box-none'}>
@@ -94,10 +94,10 @@ export default class Stepper extends PureComponent {
     }
 
     _renderSubtractButton=()=>{
-        var { elementId, }= this.props;
-        var { disabled, counter }=this.state;
-        var btn = this.props.children[0];
-        var{
+        const { elementId, }= this.props;
+        const { disabled, counter }=this.state;
+        const btn = this.props.children[0];
+        const {
             style,
             renderDisabled,
             children,
@@ -116,11 +116,11 @@ export default class Stepper extends PureComponent {
     }
 
     _renderTextInput=()=>{
-        var { elementId, initValue }= this.props;
-        var { disabled, counter}=this.state;
+        const { elementId, initValue }= this.props;
+        const { disabled, counter}=this.state;
         var input = this.props.children[1].props.elementType!=='Button'?this.props.children[1]:null;
         if(input===null) return null;
-        var{
+        const {
             style,
         } = input.props;
 
@@ -130,10 +130,10 @@ export default class Stepper extends PureComponent {
     }
 
     _renderAddButton=()=>{
-        var { elementId, }= this.props;
-        var { disabled, counter }=this.state;
+        const { elementId, }= this.props;
+        const { disabled, counter }=this.state;
         var btn = this.props.children[1].props.elementType==='Button'?this.props.children[1]:this.props.children[2];
-        var{
+        const {
             style,
             renderDisabled,
             children,

@@ -14,7 +14,8 @@ import {
     ScrollView,
     StyleSheet,
 } from 'react-native';
-import {observer} from 'mobx-react/native';
+import validate from 'mobx-form-validate';
+import { observer } from 'mobx-react/native';
 import { observable, computed, outrun, action, useStrict } from 'mobx';
 import Icon from 'react-native-vector-icons/Ionicons';
 
@@ -31,28 +32,34 @@ import SlideBox from '../components/SlideBox';
 import ScrollBox from '../components/ScrollBox';
 import Tabbar from '../components/Tabbar';
 import Tabbody from '../components/Tabbody';
+import Form from '../components/Form';
 
 import Topbar from '../modules/Topbar';
 import Module from '../modules/Module';
 
-const titles = ['Eat', 'Drink', 'Think'];
-
-class Todo {
+class Title {
     id = `${Date.now()}${Math.floor(Math.random()*10)}`;
 
     @observable
-    title = '';
+    text = '';
 
     @observable
     done = false;
 
-    constructor(title) {
-        this.title = title;
+    constructor(text) {
+        this.text = text;
     }
 }
 
-function randomTodoTitle() {
-    return titles[Math.floor(Math.random() * titles.length)];
+class FormValidate {
+    @observable
+    @validate(/^1(2|3|4|5|7|8)\d{9}$/, 'Please input a valid phone number.')
+    mobile = '';
+
+    @observable
+    @validate(/^.+$/, 'Please input any password.')
+    password = '';
+
 }
 
 @observer
@@ -62,11 +69,13 @@ export default class HomePage extends Component {
     @observable counter2 = 0;
 
     static propTypes = {
-        data: PropTypes.instanceOf(Todo),
+        ttl: PropTypes.instanceOf(Title),
+        validate: PropTypes.instanceOf(FormValidate),
     };
 
     static defaultProps = {
-        data: new Todo('Test mobx style'),
+        ttl: new Title('Test mobx style'),
+        validate: new FormValidate(),
     };
 
     constructor(props) {
@@ -86,12 +95,22 @@ export default class HomePage extends Component {
 
     //
     render() {
-        const { data } = this.props;
+        const { ttl, validate } = this.props;
         return (
             <View style={styles.container}>
                 <StatusBar backgroundColor='rgba(255,255,255,0.1)' hidden={false} animated={true} translucent={true} barStyle='default'/>
                 <Topbar title='Mobx Test'/>
                 <ScrollView style={styles.flex_1}>
+
+                    <Module title='mobx form'>
+                        <Form style={styles.flex_1}  action='form_action.php' method="get" validate={validate}>
+
+                            <Button type='submit' style={styles.btn_default}>
+                                <Text style={[styles.color_deep,styles.font_size_14]}>提交</Text>
+                            </Button>
+                        </Form>
+                    </Module>
+
                     <Module title='mobx base'>
                         <View style={[styles.flex_row, styles.align_center, styles.flex_wrap, styles.margin_bottom_10]}>
                             <Stepper disabled={false} maxValue={10} minValue={0} style={styles.stepper} onChanged={this._onChanged}>
@@ -141,11 +160,10 @@ export default class HomePage extends Component {
                             </Stepper>
                         </View>
                         <Text
-                            style={[styles.item, data.done && styles.done]}
+                            style={[styles.item, ttl.done && styles.done]}
                             onPress={this._onPress}>
-                            {data.title}
+                            {ttl.text}
                         </Text>
-
                     </Module>
                 </ScrollView>
             </View>
@@ -174,8 +192,8 @@ export default class HomePage extends Component {
     }
 
     _onPress = () => {
-        const { data } = this.props;
-        data.done = !data.done;
+        const { ttl } = this.props;
+        ttl.done = !ttl.done;
     };
 
 }
