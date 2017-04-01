@@ -113,7 +113,7 @@ export default class Stepper extends PureComponent {
     }
 
     _renderTextInput=()=>{
-        var { elementId, initValue}= this.props;
+        var { elementId, initValue }= this.props;
         var { disabled, counter}=this.state;
         var input = this.props.children[1].props.elementType!=='Button'?this.props.children[1]:null;
         if(input===null) return null;
@@ -122,7 +122,7 @@ export default class Stepper extends PureComponent {
         } = input.props;
 
         return (
-            disabled?<Text style={[style, disabled?{color:'#ccc'}:null]}>{counter}</Text>:<TextInput style={style} value={counter.toString()} onChangeText={this._onChangeText} />
+            disabled?<Text style={[style, disabled?{color:'#ccc'}:null]}>{counter}</Text>:<TextInput style={style} value={counter.toString()} onBlur={this._onBlur} onChangeText={this._onChangeText} />
         );
     }
 
@@ -148,18 +148,30 @@ export default class Stepper extends PureComponent {
         );
     }
 
+    _onBlur=()=>{
+        let num = parseInt(this.state.counter);
+        if(isNaN(num)){
+            this.setState({counter:this.props.initValue});
+        }
+    }
+
     _onChangeText = (v) => {
         try {
-            let num = parseInt(v)
-            this.setState({counter:num});
-            this.props.onChanged(num);
+            if(!isNaN(v))
+            {
+                let num = parseInt(v);
+                if(num<this.props.minValue) return;
+                if(num>this.props.maxValue) return;
+                this.props.onChanged(num);
+            }
+            this.setState({counter:v});
         } catch (err) {
             throw 'Stepper num input error!';
         }
     };
 
     _onSubtract=(evt)=>{
-        let num = this.state.counter-1;
+        let num = parseInt(this.state.counter)-1;
         if(num>=this.props.minValue) {
             this.setState({counter:num});
             this.props.onChanged(num);
@@ -170,7 +182,7 @@ export default class Stepper extends PureComponent {
     }
 
     _onAdd=(evt)=>{
-        let num = this.state.counter+1;
+        let num = parseInt(this.state.counter)+1;
         if(num<=this.props.maxValue) {
             this.setState({counter:num});
             this.props.onChanged(num);

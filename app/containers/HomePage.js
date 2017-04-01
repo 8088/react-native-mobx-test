@@ -64,7 +64,7 @@ export default class HomePage extends Component {
                 <StatusBar backgroundColor='rgba(255,255,255,0.1)' hidden={false} animated={true} translucent={true} barStyle='default'/>
                 <Topbar title='Mobx Test'/>
                 <ScrollView style={styles.flex_1}>
-                    <Module title='mobx'>
+                    <Module title='mobx stepper'>
                         <View style={[styles.flex_row, styles.align_center, styles.flex_wrap, styles.margin_bottom_10]}>
                             <Stepper disabled={false} maxValue={10} minValue={0} style={styles.stepper} onChanged={this._onChanged}>
                                 <Button style={[styles.stepper_btn, styles.left_btn]} renderDisabled={()=>{
