@@ -38,7 +38,8 @@ import Module from '../modules/Module';
 @observer
 export default class HomePage extends Component {
 
-    @observable counter = 90;
+    @observable counter = 8;
+    @observable counter2 = 0;
 
     constructor(props) {
         super(props);
@@ -64,31 +65,78 @@ export default class HomePage extends Component {
                 <Topbar title='Mobx Test'/>
                 <ScrollView style={styles.flex_1}>
                     <Module title='mobx'>
-                        <Stepper disabled={false} max={99} min={0} style={styles.stepper}>
-                            <Button style={[styles.stepper_btn, styles.left_btn]} renderDisabled={()=>{
-                                return (
-                                    <View style={[styles.stepper_btn_disabled, styles.left_btn]}>
-                                        <Icon name='ios-remove' size={26} color={Colors.white}/>
-                                    </View>
-                                );
-                            }}>
-                                <Icon name='ios-remove' size={26} color={Colors.white}/>
+                        <View style={[styles.flex_row, styles.align_center, styles.flex_wrap, styles.margin_bottom_10]}>
+                            <Stepper disabled={false} maxValue={10} minValue={0} style={styles.stepper} onChanged={this._onChanged}>
+                                <Button style={[styles.stepper_btn, styles.left_btn]} renderDisabled={()=>{
+                                    return (
+                                        <View style={[styles.stepper_btn_disabled, styles.left_btn]}>
+                                            <Icon name='ios-remove' size={24} color={Colors.gray}/>
+                                        </View>
+                                    );
+                                }}>
+                                    <Icon name='ios-remove' size={24} color={Colors.pink}/>
+                                </Button>
+                                <TextInput style={styles.stepper_input} value={`${this.counter}`} />
+                                <Button style={[styles.stepper_btn, styles.right_btn]} renderDisabled={()=>{
+                                    return (
+                                        <View style={[styles.stepper_btn_disabled, styles.right_btn]}>
+                                            <Icon name='ios-add' size={24} color={Colors.gray}/>
+                                        </View>
+                                    );
+                                }}>
+                                    <Icon name='ios-add' size={24} color={Colors.pink}/>
+                                </Button>
+                            </Stepper>
+                            <Button onPress={this._getValue} style={[styles.btn_default, styles.margin_left_5]} elementId={'btn1'} >
+                                <Text style={[styles.color_deep,styles.font_size_14]}>Get Counter</Text>
                             </Button>
-                            <TextInput style={styles.stepper_txt} value={`${this.counter}`} onChangeText={this.onChangeText} />
-                            <Button style={[styles.stepper_btn, styles.right_btn]} renderDisabled={()=>{
-                                return (
-                                    <View style={[styles.stepper_btn_disabled, styles.right_btn]}>
-                                        <Icon name='ios-add' size={26} color={Colors.white}/>
-                                    </View>
-                                );
-                            }}>
-                                <Icon name='ios-add' size={26} color={Colors.white}/>
-                            </Button>
-                        </Stepper>
+                            <Text style={[styles.stepper_txt]}>{`${this.counter2}`}</Text>
+                            <Stepper disabled={false} initValue={0} maxValue={9999} minValue={0} style={styles.stepper} onChanged={this._onChanged2}>
+                                <Button style={[styles.stepper_btn, styles.left_btn, ]} renderDisabled={()=>{
+                                    return (
+                                        <View style={[styles.stepper_btn_disabled, styles.left_btn]}>
+                                            <Icon name='ios-remove' size={24} color={Colors.gray}/>
+                                        </View>
+                                    );
+                                }}>
+                                    <Icon name='ios-remove' size={24} color={Colors.pink}/>
+                                </Button>
+                                <Button style={[styles.stepper_btn, styles.right_btn]} renderDisabled={()=>{
+                                    return (
+                                        <View style={[styles.stepper_btn_disabled, styles.right_btn]}>
+                                            <Icon name='ios-add' size={24} color={Colors.gray}/>
+                                        </View>
+                                    );
+                                }}>
+                                    <Icon name='ios-add' size={24} color={Colors.pink}/>
+                                </Button>
+                            </Stepper>
+                        </View>
                     </Module>
                 </ScrollView>
             </View>
         );
+    }
+
+    _onChanged=(value)=>{
+        try {
+            this.counter = parseInt(value);
+        } catch (err) {
+
+        }
+    }
+
+
+    _onChanged2=(value)=>{
+        try {
+            this.counter2 = parseInt(value);
+        } catch (err) {
+
+        }
+    }
+
+    _getValue=()=>{
+        alert(this.counter)
     }
 
 }

@@ -122,7 +122,7 @@ export default class Stepper extends PureComponent {
         } = input.props;
 
         return (
-            disabled?<Text style={[style, disabled?{color:'#999'}:null]}>{counter}</Text>:<TextInput style={style} value={counter.toString()} onChangeText={this._onChangeText} />
+            disabled?<Text style={[style, disabled?{color:'#ccc'}:null]}>{counter}</Text>:<TextInput style={style} value={counter.toString()} onChangeText={this._onChangeText} />
         );
     }
 
@@ -148,11 +148,13 @@ export default class Stepper extends PureComponent {
         );
     }
 
-    _onChangeText = v => {
+    _onChangeText = (v) => {
         try {
-            this.setState({counter:parseInt(v)});
+            let num = parseInt(v)
+            this.setState({counter:num});
+            this.props.onChanged(num);
         } catch (err) {
-
+            throw 'Stepper num input error!';
         }
     };
 
@@ -160,6 +162,7 @@ export default class Stepper extends PureComponent {
         let num = this.state.counter-1;
         if(num>=this.props.minValue) {
             this.setState({counter:num});
+            this.props.onChanged(num);
             this.addBtn.setState({disabled:false});
             if(num===this.props.minValue) this.subtractBtn.setState({disabled:true});
         }
@@ -168,9 +171,9 @@ export default class Stepper extends PureComponent {
 
     _onAdd=(evt)=>{
         let num = this.state.counter+1;
-
         if(num<=this.props.maxValue) {
             this.setState({counter:num});
+            this.props.onChanged(num);
             this.subtractBtn.setState({disabled:false});
             if(num===this.props.maxValue) this.addBtn.setState({disabled:true});
         }
