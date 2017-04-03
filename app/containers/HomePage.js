@@ -1,5 +1,5 @@
 /**
- * A-mili React Native App
+ * Home Page
  *
  * @flow
  */
@@ -13,10 +13,13 @@ import {
     StatusBar,
     ScrollView,
     StyleSheet,
+    ProgressViewIOS,
+    ProgressBarAndroid,
 } from 'react-native';
 import validate from 'mobx-form-validate';
 import { observer } from 'mobx-react/native';
 import { observable, computed, outrun, action, useStrict } from 'mobx';
+import moment from 'moment';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import Colors from '../assets/Colors';
@@ -36,6 +39,75 @@ import Form from '../components/Form';
 
 import Topbar from '../modules/Topbar';
 import Module from '../modules/Module';
+
+const now = observable(moment());
+function updateNow() {
+    requestAnimationFrame(action(() => {
+        now.set(moment());
+        updateNow();
+    }));
+}
+updateNow();
+const date = computed(() => now.get().format('YYYY-MM-DD'));
+const DateClock = observer(function () {
+    return <Text>{date.get()}</Text>;
+});
+
+const clock = computed(() => now.get().format('hh:mm:ss'));
+const Clock = observer(function () {
+    return <Text>{clock.get()}</Text>;
+});
+@observer
+class CoolDown extends Component {
+    @observable
+    cooldownAt = moment(0);
+
+    @computed
+    get coolDown() {
+        const seconds = Math.floor(moment.duration({
+            from: now.get(),
+            to: this.cooldownAt,
+        }).asSeconds());
+        return `${seconds}秒后重试`;
+    }
+
+    @computed
+    get disabled() {
+        return this.cooldownAt >= now.get();
+    }
+
+    @action
+    onPress = () => {
+        this.cooldownAt = moment(now.get()).add(5, 'seconds');
+    };
+
+    render() {
+        return (
+            <Button
+                disabled={this.disabled}
+                title={this.disabled ? `${this.coolDown}` : 'Press Me'}
+                onPress={this.onPress}
+            />
+        );
+    }
+}
+
+const cycle = computed(() => now.get() % 3000);
+
+const CycleProgress = observer(function () {
+    if (_isIOS) {
+        return (
+            <ProgressViewIOS
+                progress={cycle.get() / 3000}
+            />
+        );
+    }
+    return (
+        <ProgressBarAndroid
+            progress={cycle.get() / 3000}
+        />
+    )
+});
 
 class Title {
     id = `${Date.now()}${Math.floor(Math.random()*10)}`;
@@ -104,9 +176,14 @@ export default class HomePage extends Component {
 
                     <Module title='mobx list'>
                         <Button type='submit' style={styles.btn_default} onPress={()=>{
-                            this._gotoPage('TestList');
+                            this._gotoPage('ListDemo1');
                         }}>
-                            <Text style={[styles.color_deep,styles.font_size_14]}>提交</Text>
+                            <Text style={[styles.color_deep,styles.font_size_14]}>List Demo 1</Text>
+                        </Button>
+                        <Button type='submit' style={styles.btn_default} onPress={()=>{
+                            this._gotoPage('ListDemo2');
+                        }}>
+                            <Text style={[styles.color_deep,styles.font_size_14]}>List Demo 2</Text>
                         </Button>
                     </Module>
 
@@ -172,6 +249,11 @@ export default class HomePage extends Component {
                             onPress={this._onPress}>
                             {ttl.text}
                         </Text>
+
+                        <DateClock />
+                        <Clock />
+                        <CoolDown />
+                        <CycleProgress />
                     </Module>
                 </ScrollView>
             </View>

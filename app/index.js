@@ -1,5 +1,5 @@
 /**
- * A-mili React Native App
+ * Test-Mobx
  *
  * @flow
  */
@@ -29,7 +29,8 @@ import Network from './mixins/Network';
 //pages
 import HomePage from './containers/HomePage';
 import ErrorPage from './containers/ErrorPage';
-import TestListPage from './containers/listpages/TestListPage';
+import ListPage1 from './containers/listpages/ListDemo1';
+import ListPage2 from './containers/listpages/ListDemo2';
 
 export default class App extends Component {
 
@@ -158,8 +159,10 @@ export default class App extends Component {
                 return <AppCover navigator={navigator} {...route}  callback={this.appCoverCallBack} />
             case 'Home':
                 return <HomePage {...route} navigator={navigator} />;
-            case 'TestList':
-                return <TestListPage {...route} navigator={navigator} />;
+            case 'ListDemo1':
+                return <ListPage1 {...route} navigator={navigator} />;
+            case 'ListDemo2':
+                return <ListPage2 {...route} navigator={navigator} />;
             default:
                 return <ErrorPage {...route} navigator={navigator} />;
         }
