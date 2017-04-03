@@ -102,6 +102,14 @@ export default class HomePage extends Component {
                 <Topbar title='Mobx Test'/>
                 <ScrollView style={styles.flex_1}>
 
+                    <Module title='mobx list'>
+                        <Button type='submit' style={styles.btn_default} onPress={()=>{
+                            this._gotoPage('TestList');
+                        }}>
+                            <Text style={[styles.color_deep,styles.font_size_14]}>提交</Text>
+                        </Button>
+                    </Module>
+
                     <Module title='mobx form'>
                         <Form style={styles.flex_1}  action='form_action.php' method="get" validate={validate}>
 
@@ -196,5 +204,10 @@ export default class HomePage extends Component {
         ttl.done = !ttl.done;
     };
 
+    _gotoPage=(title, passProps=null, component=null)=>{
+        requestAnimationFrame(()=>{
+            this.props.navigator.push({title, passProps, component});
+        })
+    }
 }
 

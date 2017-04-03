@@ -28,6 +28,8 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import Network from './mixins/Network';
 //pages
 import HomePage from './containers/HomePage';
+import ErrorPage from './containers/ErrorPage';
+import TestListPage from './containers/listpages/TestListPage';
 
 export default class App extends Component {
 
@@ -156,6 +158,8 @@ export default class App extends Component {
                 return <AppCover navigator={navigator} {...route}  callback={this.appCoverCallBack} />
             case 'Home':
                 return <HomePage {...route} navigator={navigator} />;
+            case 'TestList':
+                return <TestListPage {...route} navigator={navigator} />;
             default:
                 return <ErrorPage {...route} navigator={navigator} />;
         }
