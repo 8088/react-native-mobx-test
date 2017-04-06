@@ -7,4 +7,7 @@ import { AppRegistry } from 'react-native';
 
 import App from './app/';
 
+global._isIOS=true;
+global._isAndroid=false;
+
 AppRegistry.registerComponent('TestMobx', () => App);

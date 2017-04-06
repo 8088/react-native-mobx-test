@@ -247,6 +247,83 @@ const styles = StyleSheet.create({
         color: '#777',
     },
 
+    //form
+    form_item:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderColor: Colors.light,
+        borderBottomWidth: 1,
+        height: 50,
+        flex:1,
+    },
+    form_input:{
+        flex:1,
+        color: '#999',
+        fontSize: 16,
+        paddingTop:2,
+    },
+    form_ttl:{
+        marginRight: 20,
+        color: Colors.dark,
+        fontSize: 16,
+    },
+    form_submit:{
+        borderRadius: 3,
+        borderWidth: 1,
+        borderColor: '#FFB8C6',
+        backgroundColor: '#FFF7F8',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingHorizontal: 15,
+        paddingVertical: 10,
+        alignSelf: 'flex-end',
+    },
+    form_submit_disabled:{
+        borderRadius: 3,
+        borderWidth: 1,
+        borderColor: '#eee',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#f4f4f4',
+        paddingHorizontal: 15,
+        paddingVertical: 10,
+        alignSelf: 'flex-end',
+    },
+    form_info:{
+        flex:1,
+        color:Colors.red,
+    },
+    clear_btn:{
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: 30,
+    },
+    secure_btn:{
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingHorizontal: 8,
+        width: 40,
+    },
+    get_code_btn:{
+        borderColor: '#ccc',
+        borderWidth: 1,
+        borderRadius:3,
+        backgroundColor: '#f4f4f4',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding:10,
+    },
+    get_code_btn_disabled:{
+        borderColor: '#fff',
+        borderWidth: 1,
+        borderRadius:3,
+        backgroundColor: '#f4f4f4',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding:10,
+    },
+
+
     todo: {
         fontSize: 20,
     },
