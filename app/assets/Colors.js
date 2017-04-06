@@ -8,6 +8,7 @@ var Colors = {
     pale_pink: '#ff96b4',
     light: '#eee',
     gray: '#ccc',
+    grey: '#999',
     deep: '#666',
     dark: '#333',
     cyan: '#50d2cd',

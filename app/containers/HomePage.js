@@ -298,7 +298,7 @@ export default class HomePage extends Component {
                                 <Button disabled={!this.validate.isValid} type='submit' style={[styles.form_submit, styles.margin_top_10]} renderDisabled={()=>{
                                     return (
                                         <View style={[styles.form_submit_disabled, styles.margin_top_10]} >
-                                            <Text style={[styles.color_deep,styles.font_size_14]}>提交</Text>
+                                            <Text style={[styles.color_gray,styles.font_size_14]}>提交</Text>
                                         </View>
                                     );
                                 }}>
@@ -309,15 +309,17 @@ export default class HomePage extends Component {
                     </Module>
 
                     <Module title='mobx list'>
-                        <Button type='submit' style={styles.btn_default} onPress={()=>{
+                        <Button type='submit' style={styles.list_btn} onPress={()=>{
                             this._gotoPage('ListDemo1');
                         }}>
-                            <Text style={[styles.color_deep,styles.font_size_14]}>List Demo 1</Text>
+                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>List Demo 1</Text>
+                            <Icon name='ios-arrow-forward-outline' size={24} color={Colors.grey}/>
                         </Button>
-                        <Button type='submit' style={styles.btn_default} onPress={()=>{
+                        <Button type='submit' style={styles.list_btn} onPress={()=>{
                             this._gotoPage('ListDemo2');
                         }}>
-                            <Text style={[styles.color_deep,styles.font_size_14]}>List Demo 2</Text>
+                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>List Demo 2</Text>
+                            <Icon name='ios-arrow-forward-outline' size={24} color={Colors.grey}/>
                         </Button>
                     </Module>
 

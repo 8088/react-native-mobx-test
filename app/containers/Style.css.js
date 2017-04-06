@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
         color: '#ccc',
     },
     color_deep:{
-        color: '#999',
+        color: '#666',
     },
     color_pink:{
         color: '#FE7A93',
@@ -321,6 +321,15 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding:10,
+    },
+
+    list_btn:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderColor: Colors.light,
+        borderBottomWidth: 1,
+        height: 40,
+        flex:1,
     },
 
 
