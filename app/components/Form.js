@@ -63,6 +63,7 @@ export default class Form extends Component {
                     this.props.validate.info = '';
                 }
                 props.onBlur = ()=>{
+                    this.props.validate.info = '';
                     if(props.value!=='') this.props.validate.info = this.props.validate[camelcase('validate','error', _name)] || '';
                 }
             }
