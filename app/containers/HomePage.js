@@ -65,12 +65,14 @@ const CycleProgress = observer(function () {
     if (_isIOS) {
         return (
             <ProgressViewIOS
+                progressTintColor={'#FFB8C6'}
                 progress={cycle.get() / 3000}
             />
         );
     }
     return (
         <ProgressBarAndroid
+            color={'#FFB8C6'}
             progress={cycle.get() / 3000}
         />
     )
@@ -110,14 +112,14 @@ class FormValidate {
     code = '';
 
     @observable
-    info = '';
+    errorinfo = '';
 
     clear = () => {
         this.mobile='';
         this.email='';
         this.password='';
         this.code='';
-        this.info='';
+        this.errorinfo='';
     };
 }
 
@@ -294,7 +296,7 @@ export default class HomePage extends Component {
 
                             </View>
                             <View style={[styles.flex_row, styles.align_center]}>
-                                <Text style={styles.form_info}>{this.validate.info}</Text>
+                                <Text style={styles.form_info}>{this.validate.errorinfo}</Text>
                                 <Button disabled={!this.validate.isValid} type='submit' style={[styles.form_submit, styles.margin_top_10]} renderDisabled={()=>{
                                     return (
                                         <View style={[styles.form_submit_disabled, styles.margin_top_10]} >
@@ -310,9 +312,9 @@ export default class HomePage extends Component {
 
                     <Module title='mobx list'>
                         <Button type='submit' style={styles.list_btn} onPress={()=>{
-                            this._gotoPage('ListDemo1');
+                            this._gotoPage('FlatList');
                         }}>
-                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>List Demo 1</Text>
+                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>FlatList Demo</Text>
                             <Icon name='ios-arrow-forward-outline' size={24} color={Colors.grey}/>
                         </Button>
                         <Button type='submit' style={styles.list_btn} onPress={()=>{

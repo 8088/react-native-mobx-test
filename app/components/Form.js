@@ -60,11 +60,11 @@ export default class Form extends Component {
                 props.value= this.props.validate[_name];
                 props.onChangeText = (text)=>{
                     this.props.validate[_name] = text;
-                    this.props.validate.info = '';
+                    this.props.validate.errorinfo = '';
                 }
                 props.onBlur = ()=>{
-                    this.props.validate.info = '';
-                    if(props.value!=='') this.props.validate.info = this.props.validate[camelcase('validate','error', _name)] || '';
+                    this.props.validate.errorinfo = '';
+                    if(props.value!=='') this.props.validate.errorinfo = this.props.validate[camelcase('validate','error', _name)] || '';
                 }
             }
 

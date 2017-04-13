@@ -28,6 +28,7 @@ import Network from './mixins/Network';
 //pages
 import HomePage from './containers/HomePage';
 import ErrorPage from './containers/ErrorPage';
+import TestFlatList from './containers/listpages/TestFlatList';
 import ListPage1 from './containers/listpages/ListDemo1';
 import ListPage2 from './containers/listpages/ListDemo2';
 
@@ -158,6 +159,8 @@ export default class App extends Component {
                 return <AppCover navigator={navigator} {...route}  callback={this.appCoverCallBack} />
             case 'Home':
                 return <HomePage {...route} navigator={navigator} />;
+            case 'FlatList':
+                return <TestFlatList {...route} navigator={navigator} />;
             case 'ListDemo1':
                 return <ListPage1 {...route} navigator={navigator} />;
             case 'ListDemo2':
