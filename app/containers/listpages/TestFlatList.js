@@ -11,7 +11,7 @@ import {
 
 import { observer } from 'mobx-react/native';
 
-import PageList from './PageList';
+import ListData from './ListData';
 import Topbar from '../../modules/Topbar';
 
 const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
@@ -53,6 +53,7 @@ class Separator extends React.PureComponent {
         return <View style={styles.separator} />;
     }
 }
+
 class Spindicator extends React.PureComponent {
     render() {
         return (
@@ -68,6 +69,7 @@ class Spindicator extends React.PureComponent {
         );
     }
 }
+
 class ListHeader extends React.PureComponent {
     render() {
         return (
@@ -133,15 +135,26 @@ class ItemCard extends React.PureComponent {
     };
 }
 
+class SampleData extends ListData {
+    fetchData() {
+        //..
+        return {
+            count: 1000,
+            results: genItemData(100),
+        };
+    }
+}
+
 @observer
 export default class TestListPage extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            data: genItemData(100),
-            filterText: '',
+            //
         };
+
+        this._listData = new SampleData();
 
         this._scrollPos = new Animated.Value(0);
         this._scrollSinkX = Animated.event(
@@ -157,11 +170,11 @@ export default class TestListPage extends Component {
 
 
     render() {
-        const filterRegex = new RegExp(String(this.state.filterText), 'i');
+        const filterRegex = new RegExp('', 'i');
         const filter = (item) => (
             filterRegex.test(item.text) || filterRegex.test(item.title)
         );
-        const filteredData = this.state.data.filter(filter);
+        const filteredData = this._listData.data.filter(filter);
 
         return (
             <View style={{flex:1}}>
@@ -175,8 +188,8 @@ export default class TestListPage extends Component {
                     keyboardDismissMode="on-drag"
                     legacyImplementation={false}
                     numColumns={1}
-                    onEndReached={this._onEndReached}
-                    onRefresh={this._onRefresh}
+                    onEndReached={this._listData.fetchMore}
+                    onRefresh={this._listData.refresh}
                     onScroll={this.state.horizontal ? this._scrollSinkX : this._scrollSinkY}
                     onViewableItemsChanged={this._onViewableItemsChanged}
                     refreshing={false}
@@ -184,7 +197,6 @@ export default class TestListPage extends Component {
                     contentContainerStyle={styles.list}
                     viewabilityConfig={VIEWABILITY_CONFIG}
                 />
-
                 <Separator />
                 <View style={styles.options}>
                     <Spindicator value={this._scrollPos} />
@@ -195,19 +207,6 @@ export default class TestListPage extends Component {
 
     _ItemSeparatorComponent=()=>{
         return <View style={styles.item_separator}/>;
-    }
-
-    _onEndReached = () => {
-        if (this.state.data.length >= 1000) {
-            return;
-        }
-        this.setState((state) => ({
-            data: state.data.concat(genItemData(100, state.data.length)),
-        }));
-    };
-
-    _onRefresh=()=>{
-        alert('refresh');
     }
 
     _renderItem = ({item, separators}) => {

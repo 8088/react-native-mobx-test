@@ -1,6 +1,6 @@
 import { observable, computed, runInAction } from 'mobx';
 
-export default class PageList {
+export default class ListData {
     constructor() {
         setImmediate(() => {
             this.refresh();

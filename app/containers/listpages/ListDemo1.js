@@ -8,7 +8,7 @@ import {
 
 import { observer } from 'mobx-react/native';
 
-import PageList from './PageList';
+import PageList from './ListData';
 import Topbar from '../../modules/Topbar';
 
 const styles = StyleSheet.create({
