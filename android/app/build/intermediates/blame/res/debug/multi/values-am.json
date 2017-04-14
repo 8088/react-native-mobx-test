@@ -11,13 +11,13 @@
                     "endOffset": 202
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 280,
+                        "startOffset": 229,
                         "endColumn": 101,
-                        "endOffset": 377
+                        "endOffset": 326
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 310
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 382,
+                        "startOffset": 331,
                         "endColumn": 107,
-                        "endOffset": 485
+                        "endOffset": 434
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 433
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 490,
+                        "startOffset": 439,
                         "endColumn": 122,
-                        "endOffset": 608
+                        "endOffset": 557
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 532
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 613,
+                        "startOffset": 562,
                         "endColumn": 98,
-                        "endOffset": 707
+                        "endOffset": 656
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 638
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 712,
+                        "startOffset": 661,
                         "endColumn": 105,
-                        "endOffset": 813
+                        "endOffset": 762
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 724
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 818,
+                        "startOffset": 767,
                         "endColumn": 85,
-                        "endOffset": 899
+                        "endOffset": 848
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 827
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 904,
+                        "startOffset": 853,
                         "endColumn": 102,
-                        "endOffset": 1002
+                        "endOffset": 951
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 940
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1007,
+                        "startOffset": 956,
                         "endColumn": 112,
-                        "endOffset": 1115
+                        "endOffset": 1064
                     }
                 }
             },
@@ -159,17 +159,17 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 945,
-                    "endColumn": 78,
-                    "endOffset": 1019
+                    "endColumn": 77,
+                    "endOffset": 1018
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1120,
-                        "endColumn": 78,
-                        "endOffset": 1194
+                        "startOffset": 1069,
+                        "endColumn": 77,
+                        "endOffset": 1142
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1024,
-                    "endColumn": 99,
-                    "endOffset": 1119
+                    "startOffset": 1023,
+                    "endColumn": 77,
+                    "endOffset": 1096
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1199,
-                        "endColumn": 99,
-                        "endOffset": 1294
+                        "startOffset": 1147,
+                        "endColumn": 77,
+                        "endOffset": 1220
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1124,
-                    "endColumn": 99,
-                    "endOffset": 1219
+                    "startOffset": 1101,
+                    "endColumn": 78,
+                    "endOffset": 1175
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1299,
-                        "endColumn": 99,
-                        "endOffset": 1394
+                        "startOffset": 1225,
+                        "endColumn": 78,
+                        "endOffset": 1299
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1224,
-                    "endColumn": 95,
-                    "endOffset": 1315
+                    "startOffset": 1180,
+                    "endColumn": 99,
+                    "endOffset": 1275
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1399,
-                        "endColumn": 95,
-                        "endOffset": 1490
+                        "startOffset": 1304,
+                        "endColumn": 99,
+                        "endOffset": 1399
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1320,
-                    "endColumn": 102,
-                    "endOffset": 1418
+                    "startOffset": 1280,
+                    "endColumn": 99,
+                    "endOffset": 1375
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1495,
-                        "endColumn": 102,
-                        "endOffset": 1593
+                        "startOffset": 1404,
+                        "endColumn": 99,
+                        "endOffset": 1499
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1423,
-                    "endColumn": 98,
-                    "endOffset": 1517
+                    "startOffset": 1380,
+                    "endColumn": 95,
+                    "endOffset": 1471
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1598,
-                        "endColumn": 98,
-                        "endOffset": 1692
+                        "startOffset": 1504,
+                        "endColumn": 95,
+                        "endOffset": 1595
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1522,
-                    "endColumn": 106,
-                    "endOffset": 1624
+                    "startOffset": 1476,
+                    "endColumn": 102,
+                    "endOffset": 1574
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1697,
-                        "endColumn": 106,
-                        "endOffset": 1799
+                        "startOffset": 1600,
+                        "endColumn": 102,
+                        "endOffset": 1698
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1629,
-                    "endColumn": 115,
-                    "endOffset": 1740
+                    "startOffset": 1579,
+                    "endColumn": 98,
+                    "endOffset": 1673
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1804,
-                        "endColumn": 115,
-                        "endOffset": 1915
+                        "startOffset": 1703,
+                        "endColumn": 98,
+                        "endOffset": 1797
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1745,
-                    "endColumn": 95,
-                    "endOffset": 1836
+                    "startOffset": 1678,
+                    "endColumn": 106,
+                    "endOffset": 1780
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1920,
-                        "endColumn": 95,
-                        "endOffset": 2011
+                        "startOffset": 1802,
+                        "endColumn": 106,
+                        "endOffset": 1904
                     }
                 }
             },
@@ -329,9 +329,47 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1841,
+                    "startOffset": 1785,
+                    "endColumn": 115,
+                    "endOffset": 1896
+                },
+                "from": {
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1909,
+                        "endColumn": 115,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1901,
+                    "endColumn": 95,
+                    "endOffset": 1992
+                },
+                "from": {
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 95,
+                        "endOffset": 2116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1997,
                     "endColumn": 103,
-                    "endOffset": 1940
+                    "endOffset": 2096
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -346,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1945,
+                    "startOffset": 2101,
                     "endColumn": 170,
-                    "endOffset": 2111
+                    "endOffset": 2267
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -365,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2116,
+                    "startOffset": 2272,
                     "endColumn": 123,
-                    "endOffset": 2235
+                    "endOffset": 2391
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -384,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2240,
+                    "startOffset": 2396,
                     "endColumn": 125,
-                    "endOffset": 2361
+                    "endOffset": 2517
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -403,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2366,
+                    "startOffset": 2522,
                     "endColumn": 194,
-                    "endOffset": 2556
+                    "endOffset": 2712
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -422,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2561,
+                    "startOffset": 2717,
                     "endColumn": 191,
-                    "endOffset": 2748
+                    "endOffset": 2904
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -441,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2753,
+                    "startOffset": 2909,
                     "endColumn": 124,
-                    "endOffset": 2873
+                    "endOffset": 3029
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -460,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2878,
+                    "startOffset": 3034,
                     "endColumn": 130,
-                    "endOffset": 3004
+                    "endOffset": 3160
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -479,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3009,
+                    "startOffset": 3165,
                     "endColumn": 206,
-                    "endOffset": 3211
+                    "endOffset": 3367
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/res/values-am/values.xml",
@@ -498,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3216,
+                    "startOffset": 3372,
                     "endColumn": 207,
-                    "endOffset": 3419
+                    "endOffset": 3575
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -517,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3424,
+                    "startOffset": 3580,
                     "endColumn": 122,
-                    "endOffset": 3542
+                    "endOffset": 3698
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -536,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3547,
+                    "startOffset": 3703,
                     "endColumn": 104,
-                    "endOffset": 3647
+                    "endOffset": 3803
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -555,11 +593,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3652,
+                    "startOffset": 3808,
                     "endColumn": 175,
-                    "endOffset": 3823
+                    "endOffset": 3979
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -574,11 +612,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3828,
+                    "startOffset": 3984,
                     "endColumn": 124,
-                    "endOffset": 3948
+                    "endOffset": 4104
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -593,11 +631,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3953,
+                    "startOffset": 4109,
                     "endColumn": 193,
-                    "endOffset": 4142
+                    "endOffset": 4298
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -612,11 +650,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4147,
+                    "startOffset": 4303,
                     "endColumn": 134,
-                    "endOffset": 4277
+                    "endOffset": 4433
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -631,11 +669,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4282,
+                    "startOffset": 4438,
                     "endColumn": 156,
-                    "endOffset": 4434
+                    "endOffset": 4590
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -650,11 +688,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 4439,
+                    "startOffset": 4595,
                     "endColumn": 89,
-                    "endOffset": 4524
+                    "endOffset": 4680
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -669,11 +707,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 4529,
+                    "startOffset": 4685,
                     "endColumn": 86,
-                    "endOffset": 4611
+                    "endOffset": 4767
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -688,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4616,
+                    "startOffset": 4772,
                     "endColumn": 99,
-                    "endOffset": 4711
+                    "endOffset": 4867
                 },
                 "from": {
                     "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-am/values.xml",
@@ -707,20 +745,20 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4716,
+                    "startOffset": 4872,
                     "endColumn": 100,
-                    "endOffset": 4812
+                    "endOffset": 4968
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-am/values-am.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-am/values-am.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 2016,
+                        "startOffset": 2121,
                         "endColumn": 100,
-                        "endOffset": 2112
+                        "endOffset": 2217
                     }
                 }
             }

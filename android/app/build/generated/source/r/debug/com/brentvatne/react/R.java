@@ -8,7 +8,7 @@ package com.brentvatne.react;
 
 public final class R {
 	public static final class attr {
-		public static final int scalableType = 0x7f0100ef;
+		public static final int scalableType = 0x7f0100f2;
 	}
 	public static final class id {
 		public static final int center = 0x7f0d0019;
@@ -39,7 +39,7 @@ public final class R {
 		public static final int startInside = 0x7f0d0043;
 	}
 	public static final class styleable {
-		public static final int[] scaleStyle = { 0x7f0100ef };
+		public static final int[] scaleStyle = { 0x7f0100f2 };
 		public static final int scaleStyle_scalableType = 0;
 	}
 }

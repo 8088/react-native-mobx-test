@@ -11,13 +11,13 @@
                     "endOffset": 162
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 284,
+                        "startOffset": 233,
                         "endColumn": 111,
-                        "endOffset": 391
+                        "endOffset": 340
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 270
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 396,
+                        "startOffset": 345,
                         "endColumn": 107,
-                        "endOffset": 499
+                        "endOffset": 448
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 393
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 504,
+                        "startOffset": 453,
                         "endColumn": 122,
-                        "endOffset": 622
+                        "endOffset": 571
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 627,
+                        "startOffset": 576,
                         "endColumn": 111,
-                        "endOffset": 734
+                        "endOffset": 683
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 613
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 739,
+                        "startOffset": 688,
                         "endColumn": 107,
-                        "endOffset": 842
+                        "endOffset": 791
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 698
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 847,
+                        "startOffset": 796,
                         "endColumn": 84,
-                        "endOffset": 927
+                        "endOffset": 876
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 800
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 932,
+                        "startOffset": 881,
                         "endColumn": 101,
-                        "endOffset": 1029
+                        "endOffset": 978
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 926
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1034,
+                        "startOffset": 983,
                         "endColumn": 125,
-                        "endOffset": 1155
+                        "endOffset": 1104
                     }
                 }
             },
@@ -159,17 +159,17 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 931,
-                    "endColumn": 81,
-                    "endOffset": 1008
+                    "endColumn": 83,
+                    "endOffset": 1010
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1160,
-                        "endColumn": 81,
-                        "endOffset": 1237
+                        "startOffset": 1109,
+                        "endColumn": 83,
+                        "endOffset": 1188
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1013,
-                    "endColumn": 106,
-                    "endOffset": 1115
+                    "startOffset": 1015,
+                    "endColumn": 80,
+                    "endOffset": 1091
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1242,
-                        "endColumn": 106,
-                        "endOffset": 1344
+                        "startOffset": 1193,
+                        "endColumn": 80,
+                        "endOffset": 1269
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1120,
-                    "endColumn": 108,
-                    "endOffset": 1224
+                    "startOffset": 1096,
+                    "endColumn": 81,
+                    "endOffset": 1173
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1349,
-                        "endColumn": 108,
-                        "endOffset": 1453
+                        "startOffset": 1274,
+                        "endColumn": 81,
+                        "endOffset": 1351
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1229,
-                    "endColumn": 98,
-                    "endOffset": 1323
+                    "startOffset": 1178,
+                    "endColumn": 106,
+                    "endOffset": 1280
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1458,
-                        "endColumn": 98,
-                        "endOffset": 1552
+                        "startOffset": 1356,
+                        "endColumn": 106,
+                        "endOffset": 1458
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1328,
-                    "endColumn": 107,
-                    "endOffset": 1431
+                    "startOffset": 1285,
+                    "endColumn": 108,
+                    "endOffset": 1389
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1557,
-                        "endColumn": 107,
-                        "endOffset": 1660
+                        "startOffset": 1463,
+                        "endColumn": 108,
+                        "endOffset": 1567
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1436,
-                    "endColumn": 102,
-                    "endOffset": 1534
+                    "startOffset": 1394,
+                    "endColumn": 98,
+                    "endOffset": 1488
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1665,
-                        "endColumn": 102,
-                        "endOffset": 1763
+                        "startOffset": 1572,
+                        "endColumn": 98,
+                        "endOffset": 1666
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1539,
-                    "endColumn": 106,
-                    "endOffset": 1641
+                    "startOffset": 1493,
+                    "endColumn": 107,
+                    "endOffset": 1596
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1768,
-                        "endColumn": 106,
-                        "endOffset": 1870
+                        "startOffset": 1671,
+                        "endColumn": 107,
+                        "endOffset": 1774
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1646,
-                    "endColumn": 121,
-                    "endOffset": 1763
+                    "startOffset": 1601,
+                    "endColumn": 102,
+                    "endOffset": 1699
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1875,
-                        "endColumn": 121,
-                        "endOffset": 1992
+                        "startOffset": 1779,
+                        "endColumn": 102,
+                        "endOffset": 1877
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1768,
-                    "endColumn": 99,
-                    "endOffset": 1863
+                    "startOffset": 1704,
+                    "endColumn": 106,
+                    "endOffset": 1806
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1997,
-                        "endColumn": 99,
-                        "endOffset": 2092
+                        "startOffset": 1882,
+                        "endColumn": 106,
+                        "endOffset": 1984
                     }
                 }
             },
@@ -329,18 +329,56 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1868,
-                    "endColumn": 100,
-                    "endOffset": 1964
+                    "startOffset": 1811,
+                    "endColumn": 121,
+                    "endOffset": 1928
                 },
                 "from": {
-                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-gl-rES/values-gl-rES.xml",
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2097,
+                        "startOffset": 1989,
+                        "endColumn": 121,
+                        "endOffset": 2106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1933,
+                    "endColumn": 99,
+                    "endOffset": 2028
+                },
+                "from": {
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2111,
+                        "endColumn": 99,
+                        "endOffset": 2206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2033,
+                    "endColumn": 100,
+                    "endOffset": 2129
+                },
+                "from": {
+                    "file": "/Users/liujunli/work/www/2017/react-native/labs/TestMobx/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-gl-rES/values-gl-rES.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2211,
                         "endColumn": 100,
-                        "endOffset": 2193
+                        "endOffset": 2307
                     }
                 }
             }

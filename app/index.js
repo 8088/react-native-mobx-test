@@ -29,8 +29,7 @@ import Network from './mixins/Network';
 import HomePage from './containers/HomePage';
 import ErrorPage from './containers/ErrorPage';
 import TestFlatList from './containers/listpages/TestFlatList';
-import ListPage1 from './containers/listpages/ListDemo1';
-import ListPage2 from './containers/listpages/ListDemo2';
+import ShoppingCart from './containers/listpages/ShoppingCart';
 
 export default class App extends Component {
 
@@ -161,10 +160,8 @@ export default class App extends Component {
                 return <HomePage {...route} navigator={navigator} />;
             case 'FlatList':
                 return <TestFlatList {...route} navigator={navigator} />;
-            case 'ListDemo1':
-                return <ListPage1 {...route} navigator={navigator} />;
-            case 'ListDemo2':
-                return <ListPage2 {...route} navigator={navigator} />;
+            case 'ShoppingCart':
+                return <ShoppingCart {...route} navigator={navigator} />;
             default:
                 return <ErrorPage {...route} navigator={navigator} />;
         }

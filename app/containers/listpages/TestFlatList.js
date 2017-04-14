@@ -177,7 +177,7 @@ export default class TestListPage extends Component {
         const filteredData = this._listData.data.filter(filter);
 
         return (
-            <View style={{flex:1}}>
+            <View style={styles.container}>
                 <Topbar {...this.props} color='#000000' backgroundColor='white'/>
                 <AnimatedFlatList
                     ItemSeparatorComponent={this._ItemSeparatorComponent}

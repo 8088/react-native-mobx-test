@@ -314,13 +314,13 @@ export default class HomePage extends Component {
                         <Button type='submit' style={styles.list_btn} onPress={()=>{
                             this._gotoPage('FlatList');
                         }}>
-                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>FlatList Demo</Text>
+                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>FlatList Test</Text>
                             <Icon name='ios-arrow-forward-outline' size={24} color={Colors.grey}/>
                         </Button>
                         <Button type='submit' style={styles.list_btn} onPress={()=>{
-                            this._gotoPage('ListDemo2');
+                            this._gotoPage('ShoppingCart');
                         }}>
-                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>List Demo 2</Text>
+                            <Text style={[styles.flex_1, styles.color_deep,styles.font_size_14]}>Simple Shopping Cart</Text>
                             <Icon name='ios-arrow-forward-outline' size={24} color={Colors.grey}/>
                         </Button>
                     </Module>
