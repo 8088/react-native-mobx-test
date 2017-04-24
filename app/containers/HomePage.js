@@ -41,6 +41,9 @@ import Form from '../components/Form';
 
 import Topbar from '../modules/Topbar';
 import Module from '../modules/Module';
+import Vote from '../modules/Vote';
+
+import vote_json from '../data/vote.json';
 
 const now = observable(moment());
 function updateNow() {
@@ -325,6 +328,10 @@ export default class HomePage extends Component {
                         </Button>
                     </Module>
 
+                    <Module title='mobx vote'>
+                        <Vote data={vote_json}/>
+                    </Module>
+
                     <Module title='mobx time'>
                         <DateClock />
                         <Clock />
@@ -386,6 +393,9 @@ export default class HomePage extends Component {
                         </Text>
 
                     </Module>
+
+
+
                 </ScrollView>
             </View>
         );

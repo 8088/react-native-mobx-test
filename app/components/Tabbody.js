@@ -11,7 +11,7 @@ import {
     InteractionManager,
 } from 'react-native';
 
-import StaticContainer from 'react-static-container';
+const StaticContainer = require('react-static-container');
 const SceneComponent = (Props) => {
     const {shouldUpdated, ...props,} = Props;
     return <View {...props}>
